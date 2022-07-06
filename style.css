@@ -139,14 +139,43 @@ body {
 }
 
 .donate-sector-item:hover {
+  width: 310px;
+  /* margin: 10px; */
+  padding: 10px;
+  /* justify-content: space-evenly; */
+  flex-grow: 1;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 8px 16px 20px gray;
+  background-color: #fff4d6;
+}
+
+.religious-item {
+  /* display: flex; */
   width: 300px;
+  /* height: 150px; */
   margin: 10px;
-  justify-content: space-evenly;
+  padding: 20px;
+  /* background-color: #4caf50; */
+  /* justify-content: space-evenly; */
   flex-grow: 1;
   /* flex-basis: 400; */
   align-items: center;
   border-radius: 5px;
   font-weight: 700;
   box-shadow: 8px 16px 20px gray;
-  background-color: #fff4d6;
+}
+.religious-item h4 {
+  font-size: 20px;
+}
+.religious-item p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.contribute {
+  display: flex;
+  justify-content: space-evenly;
 }
