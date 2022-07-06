@@ -92,3 +92,61 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+.donate-plan {
+  margin-top: 100px;
+}
+.plan-title {
+  text-align: center;
+  background-color: #4caf50;
+  padding: 30px;
+  color: white;
+}
+.plan-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.donate-sector {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.donate-sector-item {
+  /* display: flex; */
+  width: 300px;
+  /* height: 150px; */
+  margin: 10px;
+  /* background-color: #4caf50; */
+  /* justify-content: space-evenly; */
+  flex-grow: 1;
+  /* flex-basis: 400; */
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.donate-sector-item img {
+  width: 50%;
+}
+.donate-sector-item h4 {
+  font-size: 20px;
+}
+.donate-sector-item p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.donate-sector-item:hover {
+  width: 300px;
+  margin: 10px;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  /* flex-basis: 400; */
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 8px 16px 20px gray;
+  background-color: #fff4d6;
+}
