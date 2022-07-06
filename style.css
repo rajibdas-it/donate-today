@@ -247,6 +247,8 @@ body {
 .subscribe-btn {
   height: 36px;
   width: 150px;
+  font-size: 15px;
+  font-weight: bold;
   border-radius: 5px;
   background-color: #ff5858;
   border: 1px solid #ff5858;
