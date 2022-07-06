@@ -1,4 +1,48 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/banner_picture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-msg {
+  text-align: center;
+}
+.banner-title {
+  color: white;
+  font-size: 40px;
+}
+.banner-text {
+  color: white;
+}
+
+.donate-btn {
+  margin-top: 20px;
+  padding: 10px 40px;
+  /* background-image: linear-gradient(45deg, rgb(241, 186, 82), rgb(230, 72, 44)); */
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
+.donate-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #4caf50;
+  color: black;
+}
+
+/* .btn-icon img {
+  float: left;
+  width: 30px;
+  margin-right: 10px;
+} */
