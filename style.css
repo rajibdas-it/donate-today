@@ -206,3 +206,33 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
+.subscribe {
+  margin-top: 100px;
+}
+.update-title {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: #4caf50; */
+}
+.update-title h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.update-title p {
+  margin-top: -30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #fff4d6;
+}
